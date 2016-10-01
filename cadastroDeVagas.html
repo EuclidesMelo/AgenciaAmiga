@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cadastro de vagas</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+	<body>
+	<fieldset>
+		<legend>Cadastre sua vaga</legend>
+		<form id="formCadastroVagas" method="post" action="cadastroDeVagasFeito.html">
+			<input placeholder="Nome da vaga" type="text" name="nomeDaVaga" required><br>
+			<input placeholder="Descrição da vaga" type="text" name="descricaoVaga"><br>
+			Habilidades necessárias:<br>
+			<input type="checkbox" name="habilidade1" value="habilidade1">Habilidade 1<br>
+			<input type="checkbox" name="habilidade2" value="habilidade2">Habilidade 2<br>
+			<input type="checkbox" name="habilidade3" value="habilidade3">Habilidade 3<br>
+			...<br>
+			<input type="checkbox" name="habilidadeN" value="habilidadeN">Habilidade N<br>
+			<input type="submit" value="Cadastrar">
+
+		</form>
+	</fieldset>
+	</body>
+</html>
