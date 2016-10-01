@@ -1,0 +1,5 @@
+Para usar o sistema, use o servidor web do XAMPP.
+Para executa-lo, copiar os arquivos a pasta htdocs, dentro do diretório raiz do XAMPP.
+Acessa-se via browser no endereço http://localhost:porta/arquivodesejado
+
+Feito por Euclides (euclides.melo@aluno.ifal.edu.br) e por Thomaz (thomazifal@gmail.com).
